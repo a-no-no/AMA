@@ -11,8 +11,7 @@ em {
   font-weight: bold;
   text-decoration: underline;
 }
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {
   box-sizing: border-box;
@@ -47,7 +46,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #1E90FF;
   height: 300px;
 }
 
@@ -69,4 +68,3 @@ footer {
     width: 100%;
     height: auto;
   }
-}
