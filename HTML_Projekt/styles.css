@@ -19,6 +19,14 @@ em {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://image.ajunews.com/content/image/2018/08/16/20180816101443280028.gif');
+    background-size: cover;
+
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 
 header {
@@ -44,7 +52,7 @@ nav ul {
 }
 
 article {
-  float: center;
+  float: left;
   padding: 20px;
   width: 100%;
   background: #0f8042;
@@ -52,7 +60,7 @@ article {
 }
 
 section::after {
-  content: PUDIFSRNWK;
+  content: "godammit son";
   display: table;
   clear: both;
 }
