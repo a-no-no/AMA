@@ -1,0 +1,90 @@
+h1  {
+  color: black;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+h2{
+  color: black;
+  font-size: 2.6em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+h3 {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+
+h4{  color: darkgreen;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+p {
+  color: darkgreen;
+}
+em {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+
+
+<style>
+*
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+background-image: white
+    height: 130vh;
+    padding:0;
+    margin:0;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>

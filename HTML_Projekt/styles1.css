@@ -1,0 +1,108 @@
+h1  {
+  color: black;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+h2{
+  color: black;
+  font-size: 2.6em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+h3 {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+
+h4{  color: darkgreen;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+p {
+  color: darkgreen;
+}
+em {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+
+
+<style>
+*
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+/*  background-image: url('https://image.ajunews.com/content/image/2018/08/16/201808161014432800');*/
+
+  background-image: url("Images/Stor-dans.gif");
+    background-size: cover;
+
+
+
+    height: 130vh;
+    padding:0;
+    margin:0;
+}
+
+header {
+  background-color:white;
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  width: 100%;
+}
+
+nav {
+  float: center;
+  width: 100%;
+  color: #76AADA;
+  height: 25px;
+  background: #76AADA; /*blå farve*/
+  padding: 20px;
+  opacity: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  /*background-image: url("Stor-dans.gif.jpg")*/
+  float: center;
+  width: 100%;
+  height: 100%;
+}
+
+section::after {
+  content: "godammit son";
+  display: table;
+  clear: both;
+}
+
+footer {
+  position:fixed;
+  bottom:0;
+  background-color: #fdd116;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  opacity: 75%;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
